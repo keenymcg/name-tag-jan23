@@ -23,15 +23,34 @@ header {
 
 header .logo {
     height: 100%;
+    position: sticky;
+    padding: 20px; 
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background-color: rgb(249, 206, 120);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
 }
 
 main {
     padding: 20px;
 }
 
+.greeting {
+    color: white;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0;
+}
+
 .nametag {
-    background: red;
-    width: 300px;
+    background: rgb(66, 28, 202);
+    color: white;
+    width: 400px;
     margin: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -40,8 +59,10 @@ main {
 }
 
 .name-display {
+    color: rgb(68, 115, 182);
     background: white;
     padding-top: 25px;
     padding-bottom: 25px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: cursive;
+    font-size: 2em;
 }
