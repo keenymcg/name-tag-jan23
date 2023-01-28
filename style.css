@@ -28,3 +28,20 @@ header .logo {
 main {
     padding: 20px;
 }
+
+.nametag {
+    background: red;
+    width: 300px;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.name-display {
+    background: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
