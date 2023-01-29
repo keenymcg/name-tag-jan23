@@ -13,3 +13,16 @@ function tellMeImDumb(name) {
 }
 
 tellMeImDumb('Keenan');
+
+
+const updateBtn = document.getElementById('update');
+
+updateBtn.addEventListener('click', () => {
+    console.log('i am clicking on the button');
+
+    const nameInput = document.getElementById('input');
+
+    const nameElement = document.getElementById('nameElement');
+    
+    nameElement.textContent = nameInput.value;
+});
